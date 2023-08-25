@@ -364,17 +364,19 @@ body {
 .skills__wrapper {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 3rem;
 }
 
 .skills__content {
   background-color: var(--color-bg-secondary);
   box-shadow: var(--box-shadow);
-  padding: 3rem;
+  padding: 2rem;
+  width: 17rem;
 }
 
 .skills__item {
   margin-bottom: 1rem;
+  font-size: 17px !important;
 }
 
 .skills__subtitle {
@@ -384,6 +386,15 @@ body {
 
 .skills__item i {
   color: var(--color-primary);
+}
+@media screen and (max-width: 758px) {
+  .skills__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    gap: 1rem;
+  }
 }
 
 /* Qualification
