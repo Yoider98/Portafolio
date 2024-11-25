@@ -656,7 +656,10 @@ body {
   }
 
   .hero__img {
-    justify-self: flex-end;
+    width: 500px; /* Ajusta el tamaño según tus necesidades */
+  height: 500px; /* Asegúrate de que sea igual al ancho para que sea un círculo */
+  border-radius: 50%; /* Esto hace que la imagen sea circular */
+  object-fit: cover; /* Asegura que la imagen se ajuste correctamente dentro del círculo */
   }
 }
 
