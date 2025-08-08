@@ -47,7 +47,7 @@ Portafolio personal mejorado de Yoider Yancy, desarrollador Full Stack especiali
 
 ### 🔌 API Template
 - **Descripción**: Plantilla de API RESTful
-- **Tecnologías**: Node.js, Express.js, JWT, MongoDB
+- **Tecnologías**: Node.js, LoopBack 4, JWT, MongoDB
 - **Características**: Autenticación, documentación Swagger
 
 ## 🎯 Mejoras Implementadas
