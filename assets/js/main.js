@@ -67,25 +67,35 @@ window.addEventListener("scroll", () => {
 
 // ScrollReveal animations
 const sr = ScrollReveal({
-  duration: 2000,
-  distance: "100px",
-  delay: 400,
-  reset: false,
+  duration: 1500,
+  distance: "60px",
+  delay: 200,
+  reset: true,
+  easing: "cubic-bezier(0.25, 0.8, 0.25, 1)"
 });
 
-sr.reveal(".hero__content, .about__content");
-sr.reveal(".hero__img", { origin: "top" });
+// Hero Section
+sr.reveal(".hero__title", { origin: "top" });
+sr.reveal(".hero__description", { origin: "bottom", delay: 400 });
+sr.reveal(".hero__info-wrapper", { origin: "bottom", interval: 150, delay: 600 });
 
-sr.reveal(
-  ".hero__info-wrapper, .skills__title, .skills__content, .qualification__name, .qualification__item, .service__card, .project__content, .testimonial__wrapper, .footer__content",
-  {
-    delay: 500,
-    interval: 100,
-  }
-);
+// Headers de secciones
+sr.reveal(".section__header", { origin: "top", distance: "30px" });
 
-sr.reveal(".qualification__footer-text, .contact__content", {
-  origin: "left",
+// About y Skills
+sr.reveal(".about__content", { origin: "left", delay: 300 });
+sr.reveal(".highlight__item", { origin: "left", interval: 150, delay: 400 });
+sr.reveal(".skills__content", { origin: "right", interval: 100, delay: 300 });
+
+// Educación, Experiencia, Proyectos, Contacto y Footer
+sr.reveal(".qualification__item, .service__card, .project__content", {
+  origin: "bottom",
+  interval: 150,
+  delay: 300
 });
 
-sr.reveal(".qualification__footer .btn, .contact__btn", { origin: "right" });
+sr.reveal(".contact__title", { origin: "top" });
+sr.reveal(".contact__description", { origin: "bottom", delay: 300 });
+sr.reveal(".contact__actions .btn", { origin: "bottom", interval: 150, delay: 500 });
+
+sr.reveal(".footer__content", { origin: "bottom", interval: 100 });
