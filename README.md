@@ -30,14 +30,14 @@ Portafolio personal mejorado de Yoider Yancy, desarrollador Full Stack especiali
 
 ## 📜 Certificaciones Destacadas
 
-- **Commit Academy**: Certificación en Desarrollo Web & Programación (2026) - [Verificar Certificado (cert_LClu76SNE7)](https://www.commitacademy.io/app/verify-certificate/cert_LClu76SNE7)
+- **Commit Academy**: Fundamentos de AWS: Cloud, Serverless y Operación (2026) - [Verificar Certificado (cert_LClu76SNE7)](https://www.commitacademy.io/app/verify-certificate/cert_LClu76SNE7)
 - **Platzi / AWS**: Desarrollo Multiplataforma con Flutter, DevOps on AWS y Cloud Computing.
 
 ## 🚀 Proyectos Destacados
 
-### ⚙️ Enterprise REST API Template
-- **Descripción**: Template y arquitectura base para APIs RESTful escalables de nivel empresarial.
-- **Tecnologías**: Node.js, LoopBack 4, TypeScript, MongoDB, MercadoPago API, AWS S3, Cloudinary, Nodemailer, Swagger.
+### ⚙️ Enterprise REST API Template (AWS Lambda)
+- **Descripción**: Template y arquitectura base para APIs RESTful escalables de nivel empresarial alojadas en **AWS Lambda (Serverless)**.
+- **Tecnologías**: AWS Lambda, Serverless Architecture, Node.js, LoopBack 4, TypeScript, MongoDB, MercadoPago API, AWS S3, Cloudinary, Nodemailer, Swagger.
 - **Características**: Autenticación/Autorización JWT, pasarela de pago, almacenamiento cloud y documentación OpenAPI.
 
 ### 🛒 Tienda Virtual E-Commerce
