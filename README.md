@@ -28,27 +28,31 @@ Portafolio personal mejorado de Yoider Yancy, desarrollador Full Stack especiali
 - **SwiperJS** - Carruseles interactivos
 - **ScrollReveal** - Animaciones de scroll
 
+## 📜 Certificaciones Destacadas
+
+- **Commit Academy**: Certificación en Desarrollo Web & Programación (2026) - [Verificar Certificado (cert_LClu76SNE7)](https://www.commitacademy.io/app/verify-certificate/cert_LClu76SNE7)
+- **Platzi / AWS**: Desarrollo Multiplataforma con Flutter, DevOps on AWS y Cloud Computing.
+
 ## 🚀 Proyectos Destacados
 
-### 🛍️ Ecommerce Angular
-- **Descripción**: Aplicación de comercio electrónico completa
-- **Tecnologías**: Angular 9, TypeScript, NgRx, Mercado Pago API
-- **Características**: Autenticación, carrito de compras, pagos integrados
+### ⚙️ Enterprise REST API Template
+- **Descripción**: Template y arquitectura base para APIs RESTful escalables de nivel empresarial.
+- **Tecnologías**: Node.js, LoopBack 4, TypeScript, MongoDB, MercadoPago API, AWS S3, Cloudinary, Nodemailer, Swagger.
+- **Características**: Autenticación/Autorización JWT, pasarela de pago, almacenamiento cloud y documentación OpenAPI.
 
-### ⚡ Frontend Angular
-- **Descripción**: Aplicación frontend moderna con mejores prácticas
-- **Tecnologías**: Angular, TypeScript, SCSS
-- **Características**: Arquitectura escalable, componentes reutilizables
+### 🛒 Tienda Virtual E-Commerce
+- **Descripción**: Plataforma de comercio electrónico modular y reactiva.
+- **Tecnologías**: Angular 9+, NgRx (Store/Effects/Entity), RxJS, Bootstrap, Angular Material, SweetAlert2, Toastr.
+- **Características**: Catálogo con filtrado interactivo, carrito de compras persistente, notificaciones reactivas y checkout.
 
-### 📊 Dashboard Template
-- **Descripción**: Plantilla de dashboard administrativo
-- **Tecnologías**: Angular, Chart.js, Material Design
-- **Características**: Gráficos interactivos, diseño responsive
+### 📊 E-Commerce Admin Dashboard Template
+- **Descripción**: Dashboard administrativo reactivo para la gestión de plataformas e-commerce.
+- **Tecnologías**: Angular, NgRx, Angular Material, Bootstrap 5, FontAwesome, JWT Decode.
+- **Características**: Métricas comerciales, administración de stock, control de órdenes y roles de usuario.
 
-### 🔌 API Template
-- **Descripción**: Plantilla de API RESTful
-- **Tecnologías**: Node.js, LoopBack 4, JWT, MongoDB
-- **Características**: Autenticación, documentación Swagger
+### 💼 Contafacil (SaaS Contable)
+- **Descripción**: Plataforma SaaS de contabilidad y gestión de inventario empresarial.
+- **Tecnologías**: Angular 17+, NgRx, LoopBack 4, PostgreSQL, Clean Architecture.
 
 ## 🎯 Mejoras Implementadas
 
